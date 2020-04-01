@@ -6,9 +6,12 @@ namespace GitExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
 
-            myClass myclass = new myClass();
+            myClass myclass = new myClass("Simon", "Denmark", 2730);
+
+            Console.WriteLine($" Navn: {myclass.Name}");
+            Console.WriteLine($" Address: {myclass.Address}");
+            Console.WriteLine($" postNr: {myclass.postNr}");
             
 
 
